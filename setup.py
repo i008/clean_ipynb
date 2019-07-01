@@ -40,15 +40,17 @@ setup(
     long_description=readme + '\n\n' + history,
     include_package_data=True,
     keywords='clean_ipynb',
-    name='clean_ipynb',
+    name='cleanipynb',
     packages=find_packages(include=['clean_ipynb']),
     setup_requires=setup_requirements,
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/i008/clean_ipynb',
-    version='0.1.0',
+    version='0.2.0',
     zip_safe=False,
     entry_points={
-        "console_scripts": ["clean_ipynb = clean_ipynb.clean_ipynb:main"]
+        "console_scripts": ["clean_ipynb = clean_ipynb.clean_ipynb:main",
+                            "cleanipynb = clean_ipynb.clean_ipynb:main"],
+
     }
 )

@@ -8,9 +8,6 @@ from setuptools import setup, find_packages
 with open('README.MD') as readme_file:
     readme = readme_file.read()
 
-with open('HISTORY.rst') as history_file:
-    history = history_file.read()
-
 requirements = ['jupytext','importanize','autoflake']
 
 setup_requirements = ['jupytext','importanize','autoflake', 'autopep8']
@@ -32,7 +29,7 @@ setup(
     description="Cleanup imports in jupyter notebooks",
     install_requires=requirements,
     license="MIT license",
-    long_description=readme + '\n\n' + history,
+    long_description=readme,
     include_package_data=True,
     keywords='cleanipynb',
     name='cleanipynb',

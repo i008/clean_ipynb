@@ -29,7 +29,3 @@ cleanipynb path_to_your_notebook.ipynb
 - importanize
 - autoflake
 - autopep8
-
-
-
-

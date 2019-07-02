@@ -23,6 +23,13 @@ cleanipynb path_to_your_notebook.ipynb
 ![](beforeafter.gif)
 
 
+### Credits:
+
+- jupytext
+- importanize
+- autoflake
+- autopep8
+
 
 
 

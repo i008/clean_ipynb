@@ -1,6 +1,6 @@
-===========
-cleanipynb
-===========
+
+### cleanipynb
+
 
 [![Foo](https://img.shields.io/pypi/v/clean_ipynb.svg)](https://pypi.python.org/pypi/clean_ipynb)
 [![Foo](https://img.shields.io/travis/i008/clean_ipynb.svg)](https://travis-ci.org/i008/clean_ipynb)

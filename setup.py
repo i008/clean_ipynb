@@ -8,7 +8,7 @@ from setuptools import setup, find_packages
 with open('README.MD') as readme_file:
     readme = readme_file.read()
 
-requirements = ['jupytext','importanize','autoflake']
+requirements = ['jupytext','importanize','autoflake', 'autopep8']
 
 setup_requirements = ['jupytext','importanize','autoflake', 'autopep8']
 
@@ -38,7 +38,7 @@ setup(
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/i008/clean_ipynb',
-    version='0.2.1',
+    version='0.3.1',
     zip_safe=False,
     entry_points={
         "console_scripts": ["clean_ipynb = clean_ipynb.clean_ipynb:main",

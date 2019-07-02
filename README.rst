@@ -13,13 +13,12 @@ cleanipynb
 Cleanup imports in jupyter notebooks
 
 
-Features
---------
 
-```bash
-pip install cleanipynb  
-cleanipynb path_to_your_notebook.ipynb 
-```
+# Usage
+
+pip install cleanipynb    
+cleanipynb path_to_your_notebook.ipynb .  
+
 
 Be careful it does the cleaning inplace!
 

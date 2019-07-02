@@ -5,10 +5,11 @@
 [![](https://img.shields.io/pypi/v/clean_ipynb.svg)](https://pypi.python.org/pypi/clean_ipynb)
 [![](https://img.shields.io/travis/i008/clean_ipynb.svg)](https://travis-ci.org/i008/clean_ipynb)
 
-Cleanup imports in jupyter notebooks
 
-### Demo:
-![](beforeafter.gif)
+Cleans up dirty jupyter notebooks
+
+
+> **WARNING**: Cleaning happens in-place - Be careful
 
 
 ### Usage:
@@ -18,6 +19,10 @@ pip install cleanipynb
 cleanipynb path_to_your_notebook.ipynb
 ```
 
-Be careful it does the cleaning inplace!
+### Demo:
+![](beforeafter.gif)
+
+
+
 
 

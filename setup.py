@@ -8,7 +8,7 @@ from setuptools import setup, find_packages
 with open('README.MD') as readme_file:
     readme = readme_file.read()
 
-requirements = ['jupytext','importanize','autoflake', 'autopep8']
+requirements = ['jupytext','importanize','autoflake']
 
 setup_requirements = ['jupytext','importanize','autoflake', 'autopep8']
 

@@ -6,7 +6,15 @@
 [![](https://img.shields.io/travis/i008/clean_ipynb.svg)](https://travis-ci.org/i008/clean_ipynb)
 
 
-Cleans up dirty jupyter notebooks
+This package will cleanup your jupyter notebook by:
+
+- removing unused imports (globally)
+- moving all imports to the first cell and reordering them
+- reformatting your code with autopep8
+
+All this with preserving the cell structure thanks to jupytext smart export to python features.
+
+
 
 
 > **WARNING**: Cleaning happens in-place - Be careful

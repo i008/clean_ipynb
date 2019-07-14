@@ -1,7 +1,7 @@
 import subprocess
 import sys
 import pathlib
-
+import os
 
 def main():
     p = pathlib.Path(sys.argv[1])
@@ -17,6 +17,8 @@ def main():
     subprocess.call(['autopep8', '--in-place', str(py_file)])
     subprocess.call(['importanize', str(py_file)])
     subprocess.call(['jupytext', '--to', 'notebook', str(py_file)])
+    print("cleaning up")
+    os.remove(py_file)
 
 
 if __name__ == '__main__':

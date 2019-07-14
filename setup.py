@@ -38,7 +38,7 @@ setup(
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/i008/clean_ipynb',
-    version='0.3.1',
+    version='0.4.2',
     zip_safe=False,
     entry_points={
         "console_scripts": ["clean_ipynb = clean_ipynb.clean_ipynb:main",
